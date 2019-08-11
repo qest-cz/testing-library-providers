@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "outDir": "./lib",
+    "target": "es5",
+    "rootDirs": ["src"],
+    "declaration": true,
+    "declarationDir": "./lib",
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "strictNullChecks": false,
+    "allowJs": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": true,
+    "module": "esnext",
+    "incremental": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "types": ["react"],
+    "typeRoots": ["node_modules/@types"],
+    "lib": ["dom", "es5", "es6", "es7", "es2017.object"],
+    "baseUrl": "./src"
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules"]
+}

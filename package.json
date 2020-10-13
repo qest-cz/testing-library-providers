@@ -1,7 +1,7 @@
 {
   "name": "testing-library-providers",
-  "version": "1.0.1",
-  "description": "Utils for wraping components in providers",
+  "version": "1.1.0",
+  "description": "Utils for wrapping components in providers",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
   "author": "Josef Vidlák",
@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@testing-library/react": "^8.0.9",
+    "@testing-library/react-native": "^7.0.2",
     "@types/react": "^16.9.1",
     "prettier": "^1.18.2",
     "react": "^16.9.0",
@@ -28,6 +29,7 @@
   },
   "peerDependencies": {
     "@testing-library/react": "^8.0.9",
+    "@testing-library/react-native": "^7.0.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0"
   }

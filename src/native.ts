@@ -1,7 +1,6 @@
-import { render } from '@testing-library/react'
+import { render } from '@testing-library/react-native'
+import { pipe } from 'pipe'
 import { ProviderFunction, ProviderProps } from 'types'
-
-import { pipe } from './pipe'
 
 export const enhanceRender = (...fns: ProviderFunction[]) => (
   ui: JSX.Element,
